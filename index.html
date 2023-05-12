@@ -91,10 +91,10 @@
         <form action="$(link-login-only)" method="post">
             <input type="hidden" name="dst" value="$(link-orig-esc)">
             <input type="hidden" name="popup" value="true">
-            <label for="username"><ion-icon name="person-circle-outline"></ion-icon>Username:</label>
-            <input type="text" id="username" name="username" required>
+            <label for="username">Username:</label>
+            <div><ion-icon name="person-circle-outline"></ion-icon><input type="text" id="username" name="username" required></div>
             <label for="password">Password:</label>
-            <input type="password" id="password" name="password" required>
+            <div><input type="password" id="password" name="password" required></div>
             <div id="see-container"><label>Lihat</label><input type="checkbox" id="see"></div>
             <input type="submit" value="Login">
         </form>
