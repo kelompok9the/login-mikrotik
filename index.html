@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login MikroTik</title>
     <link rel="icon" href="LOGO-SMK-NURBA-png.png">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -89,7 +91,7 @@
         <form action="$(link-login-only)" method="post">
             <input type="hidden" name="dst" value="$(link-orig-esc)">
             <input type="hidden" name="popup" value="true">
-            <label for="username">Username:</label>
+            <label for="username"><ion-icon name="person-circle-outline"></ion-icon>Username:</label>
             <input type="text" id="username" name="username" required>
             <label for="password">Password:</label>
             <input type="password" id="password" name="password" required>
